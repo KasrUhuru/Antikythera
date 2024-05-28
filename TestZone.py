@@ -1,37 +1,23 @@
-from Environments_List import *
-from Commands_Index import *
-from Character_Creator import *
+from Environments_List import roomsDaytime
+from Commands_Index import commandList,process_command,hold,get,search,seek,look
+from Character_Creator import equipment
 
-currentRoom = "verdant field"
+def main():
+    currentRoom = "verdant field"
+    roomsDaytime[currentRoom]["objects"].append("brooch")
+    roomsDaytime[currentRoom]["objects"].append("bone")
+    roomsDaytime[currentRoom]["objects"].append("whip")
 
-roomsDaytime[currentRoom]["objects"].append("brooch")
-roomsDaytime[currentRoom]["objects"].append("bone")
-roomsDaytime[currentRoom]["objects"].append("whip")
+    base=5
+    wisdomBonus=0
+    skillBonus=0
+    itemBonus=0
+    playerSight = base + wisdomBonus + skillBonus
 
-def hold(item):
-    available = True
-    global equipment
-    if equipment["right hand"]=='empty':
-        equipment["right hand"] = item
-        print(f'You take the {item} in your right hand.')
-    elif equipment["left hand"]=='empty':
-        equipment["left hand"] = item
-        print(f'You take the {item} in your left hand.')
-    elif equipment["right hand"] != 'empty' and equipment["left hand"] != 'empty':
-        print("Your hands are full!")
-        available = False
+    command = input("Welcome to the world of Kythera!")
 
-def get(item):
-    global currentRoom
-    if item in roomsDaytime[currentRoom]["objects"]:
-        hold(item)
-    else:
-        print("You don't see that here.")
+    while command != 'quit':
+        process_command(command)
 
-print('On the ground you see', end=' ')
-for index, object in enumerate(roomsDaytime[currentRoom]["objects"]):
-    if index < len(roomsDaytime[currentRoom]["objects"]) - 1:
-        print(f'a {object},', end=' ')
-    else:
-        print(f'and a {object}.')
-
+if __name__ == '__main__':
+    main()
