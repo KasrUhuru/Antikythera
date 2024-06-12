@@ -19,6 +19,9 @@ def initialize():
 def process_command(command):
     words = command.split()
     valid = False
+    if words == '':
+        words = 'look'
+        look()
     if words[0] == "get":
         valid == True
 
