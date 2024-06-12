@@ -31,6 +31,10 @@ class Character:
         self.race = race
         self.health = 10 + Character.CON
         self.maxHealth = self.health
+        self.stamina = Character.CON * 5
+        self.mana = Character.WIL/3 + (Character.INT*3)
+        self.experience = 0
+        self.skillPoints = Character.INT
         self.alive = True
         self.stance = 'neutral'
         self.damageResist = Character.CON//3
