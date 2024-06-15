@@ -2,7 +2,7 @@ This is my personal text-based adventure game!
 
 I have way too much creative energy, and all my head-in-the-clouds world building (a la Dungeons and Dragons) needs to go into something productive.
 
-The biggest influences for my work are: Castlevania, Fear and Hunger, Warhammer 40K.
+The biggest influences for my work are: (1) the Castlevania Netflix TV series; (2) Fear and Hunger combat mechanics and worldbuilding; (3) Warhammer 40K .
 
 I have a deep appreciation for fantasy themes, but the genre of medieval fantasy is far too deeply rooted in Western European pre-Renaissance or Tolkien-esque influences.
 Fantasy should have a relatable core of humanity, yes. However, we need to push the envelope of subject matter.
@@ -14,4 +14,4 @@ already identified a Messiah-adjacent figure in this game's history to be a figu
 Setting: Medieval "pre-Renaissance" levels of technology; dynamic countryside with rich green verdance, an arid desert, ominous subterranean cavescapes, 
 mountainscapes, etc; post-apocalyptic, pre-rejuvenation era.
 
-Themes: Resistance to Imperialism; influence of the Divine on the mundane; 
+Themes: Resistance to Imperialism; influence of the Divine on the mundane; reconciliation of conflicting religious dogmas
