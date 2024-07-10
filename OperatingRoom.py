@@ -2,10 +2,10 @@ from Character_Creator import Character, Barbarian, characterDict
 from WeaponsList import Weapon
 from Commands_Index import *
 
-mainChar = Character(name='Kelavir', race='human')
+mainChar = Character(name='Mistlethur', race='human')
 characterDict[mainChar] = None
 
-testDummy = Character(name='Astus', race='human')
+testDummy = Character(name='Uhuru', race='human')
 characterDict[testDummy] = None
 
 while True:
@@ -16,8 +16,8 @@ while True:
     mainChar.checkHealth()
 
     print()
-    print(f'Your HP: {mainChar.health}')
-    print(f'Enemy HP: {testDummy.health}')
+    print(f"{mainChar.name}'s HP: {mainChar.health}")
+    print(f"{testDummy.name}'s HP: {testDummy.health}")
 
     #FIXME: process_command(input()) causes immediate crash
     input() # Hit enter to continue the combat
