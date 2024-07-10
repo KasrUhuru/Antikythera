@@ -37,6 +37,8 @@ class Character:
         self.damageResist = self.CON//3
         self.stamina = self.CON * 5
         self.mana = self.WIL/3 + (self.INT*3)
+                    
+        # Initialize the starting condition of each limb of the Character proportionate to the CON value
         self.limbs = {
             'head': {'maxHealth': self.CON, 'health': self.CON, 'injured': False, 'damageResist': self.damageResist},
             'torso': {'maxHealth': self.CON, 'health': self.CON, 'injured': False, 'damageResist': self.damageResist},
@@ -57,7 +59,7 @@ class Character:
         self.aiming = False
         self.targetLimb = 'torso'
         self.weapon = unarmed
-        #self.damage = self.POW + (self.weapon.damageStat//2) + self.weapon.damageDice
+        #FIXME: self.damage = self.POW + (self.weapon.damageStat//2) + self.weapon.damageDice
         self.damage = self.POW + self.weapon.damageDice
         self.stance = 'neutral'
 
