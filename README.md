@@ -9,9 +9,9 @@ Fantasy should have a relatable core of humanity, yes. However, we need to push 
 
 This game, tentatively titled 'Antikythera', will be rooted in influences from societies, cultures, and religions such as Zoroastrianism, 17th century Iran,
 Native North American, and other polytheistic cultures that interact with one another. I anticipate some Abrahamic influences to bleed into my work, as I have
-already identified a Messiah-adjacent figure in this game's history to be a figure of considerable contention for several factions.
+already identified a Messiah-adjacent figure in this game's history to be a figure of considerable contention for several factions. This was not intentional, but I am choosing to stay true to my work.
 
-Setting: Medieval "pre-Renaissance" levels of technology; dynamic countryside with rich green verdance, an arid desert, ominous subterranean cavescapes, 
-mountainscapes, etc; post-apocalyptic, pre-rejuvenation era.
+Setting: Middle-East inspired medieval "pre-Renaissance" levels of technology; dynamic countryside with rich green verdance, an arid desert, ominous subterranean cavescapes, 
+mountainscapes, etc; post-apocalyptic, pre-rejuvenation era. Integrating lesser-known fantasy tropes with original creatures derived from folklore of the region. 
 
 Themes: Resistance to Imperialism; influence of the Divine on the mundane; reconciliation of conflicting religious dogmas
